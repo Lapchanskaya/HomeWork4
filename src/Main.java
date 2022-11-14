@@ -43,11 +43,23 @@ public class Main {
 
         // Задание 4
         System.out.println(" Задание 4");
-        int yearsOld = 19;
+        int yearsOld = 28;
         if (yearsOld >= 18) {
             System.out.println( " Поздравляем Вас с совершеннолетием!");
         } else {
             System.out.println( " Возраст совешеннолетия еще не наступил, Вам нужно немного подождать!");}
+
+        //Задание 5
+        System.out.println(" Задание 5");
+        if (yearsOld >= 7 && yearsOld< 18){
+            System.out.println(" Ребенок ходит в школу");
+        }
+        else if  (yearsOld >= 18 && yearsOld < 24) {
+            System.out.println(" Человек ходит в университет");
+        } else if ( yearsOld >= 24)  {
+            System.out.println(" Человек ходит на работу");}
+
+
 
 
 
