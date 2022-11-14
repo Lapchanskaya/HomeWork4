@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         //Задание 1
@@ -76,6 +78,22 @@ public class Main {
             System.out.println(" Есть еще " + (stand - standUse2 ) + " стоячих мест." );
         }  else  {
             System.out.println(" Стоячих мест нет!"); }
+
+        //Задание 7
+        System.out.println(" Задание 7");
+
+        int ageAPerson = 28;
+        if (ageAPerson >= 2 && ageAPerson <= 6){
+            System.out.println(" Если возраст человека равен " + ageAPerson + " то ему нужно ходить в детский сад. ");
+        }  else if ( ageAPerson >= 7 && ageAPerson <= 18){
+            System.out.println(" Если возраст человека равен " + ageAPerson + " то ему нужно ходить в школу. ");
+        } else if ( ageAPerson >= 18 && ageAPerson <= 24){
+            System.out.println(" Если возраст человека равен " + ageAPerson + " то ему нужно ходить в университет. ");
+        } else if ( ageAPerson >= 24 ){
+            System.out.println(" Если возраст человека равен " + ageAPerson + " то ему нужно ходить на работу. ");
+        }
+
+
 
 
 
