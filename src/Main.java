@@ -41,6 +41,15 @@ public class Main {
             System.out.println(" Стоячих мест нет!");
         }
 
+        // Задание 4
+        System.out.println(" Задание 4");
+        int yearsOld = 19;
+        if (yearsOld >= 18) {
+            System.out.println( " Поздравляем Вас с совершеннолетием!");
+        } else {
+            System.out.println( " Возраст совешеннолетия еще не наступил, Вам нужно немного подождать!");}
+
+
 
 
     }
