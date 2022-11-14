@@ -59,6 +59,26 @@ public class Main {
         } else if ( yearsOld >= 24)  {
             System.out.println(" Человек ходит на работу");}
 
+        //Задание 6
+        System.out.println(" Задание 6");
+        int allSeats = 102;
+        int seats = 60;
+        int stand = allSeats - 60;
+
+        int seatsUse2 = 59;
+        int standUse2 = 41;
+        if (seatsUse2 < seats) {
+            System.out.println(" Есть еще " + (seats - seatsUse2) + " сидячих мест." );
+        } else  {
+            System.out.println(" Сидячих мест нет!");
+        }
+        if (standUse2 < stand) {
+            System.out.println(" Есть еще " + (stand - standUse2 ) + " стоячих мест." );
+        }  else  {
+            System.out.println(" Стоячих мест нет!"); }
+
+
+
 
 
 
