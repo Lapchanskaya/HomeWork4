@@ -20,6 +20,28 @@ public class Main {
         if (age >= 24) {
             System.out.println(" Человек ходит на работу");}
 
+        //Задание 3
+        System.out.println(" Задание 3");
+        int capacity = 102;
+        int seatsCount = 60;
+        int standCount = capacity - 60;
+
+        int seatsUse = 59;
+        int standUse = 41;
+        if (seatsUse < seatsCount) {
+            System.out.println(" Есть еще " + (seatsCount - seatsUse) + " сидячих мест." );
+        }
+        if (seatsUse == seatsCount) {
+            System.out.println(" Сидячих мест нет!");
+        }
+        if (standUse < standCount) {
+            System.out.println(" Есть еще " + (standCount - standUse ) + " стоячих мест." );
+        }
+        if (standUse == standCount) {
+            System.out.println(" Стоячих мест нет!");
+        }
+
+
 
     }
 }
